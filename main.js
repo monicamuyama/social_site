@@ -39,9 +39,6 @@ document.getElementById("Review").onclick = reviewChanges;
 
 
 var saveChanges = function(){
-  document.querySelector(
-    "#image"
-  ).style.backgroundImage = `url(${uploadedImage})`;
  document.getElementById("bd_disp").innerText=biodata;
  document.getElementById("pd_disp").innerText=personal_statement;
  document.getElementById("univ_disp").innerText=university;
