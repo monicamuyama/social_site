@@ -7,127 +7,275 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="registration">
-      <hr />
-      <!-- <div class="outer">
-        <div class="middle">
-          <div class="inner"> -->
-      <h1>Enter Your Details and Save the Changes</h1>
-      <div class="Profile">
-        <input
-          type="file"
-          accept="image/*"
-          id="profilePicture"
-          class="css-input"
-        />
-
-        <div class="PersonalStatement">
-          <label for="personalStatement"><h3>Personal Statement</h3></label>
-          <br />
-          <textarea
-            name=""
-            id="personal_statement"
-            cols="50"
-            rows="5"
+     <section id="edit">
+      <div id="registration">
+        <hr />
+        <!-- <div class="outer">
+          <div class="middle">
+            <div class="inner"> -->
+        <h1>Enter Your Details and Save the Changes</h1>
+        <div class="Profile">
+          <input
+            type="file"
+            accept="image/*"
+            id="profilePicture"
             class="css-input"
-          >
-Enter your personal statement here</textarea
-          >
-        </div>
-        <div class="PersonalStatement">
-          <label for="bio_data"><h3>Biodata</h3></label>
-          <br />
-          <textarea name="" id="bio_data" cols="50" rows="5" class="css-input">
-Enter your biodata here</textarea
-          >
-        </div>
-      </div>
-      <div class="Education">
-        <form action="" href="display_page.html">
-          <h3>Your Education Background</h3>
-          <label for="university"
-            ><h4>University/ tertiary Institution</h4></label
-          >
-          <br />
-          <textarea
-            name=""
-            id="university"
-            cols="50"
-            rows="5"
-            class="css-input"
-          >
-Enter information about your tertiary institution here</textarea
-          >
-          <br />
-          <label for="secondary"><h4>Secondary school</h4></label>
-          <br />
-          <textarea name="" id="secondary" cols="50" rows="5" class="css-input">
-Enter your secondary school(s) information here</textarea
-          >
-          <br />
-          <label for="primary"><h4>Primary school</h4></label>
-          <br />
-          <textarea name="" id="primary" cols="50" rows="5" class="css-input">
-Enter your primary cshool information here</textarea
-          >
-          <br />
-          <div>
-            <h3>Hobbies</h3>
+          />
+  
+          <div class="PersonalStatement">
+            <label for="personalStatement"><h3>Personal Statement</h3></label>
             <br />
             <textarea
               name=""
-              id="hobby_name"
+              id="personal_statement"
               cols="50"
               rows="5"
               class="css-input"
             >
-Enter hobby name here</textarea
+  Enter your personal statement here</textarea
             >
-            <br /><br />
+          </div>
+          <div class="PersonalStatement">
+            <label for="bio_data"><h3>Biodata</h3></label>
+            <br />
+            <textarea name="" id="bio_data" cols="50" rows="5" class="css-input">
+  Enter your biodata here</textarea
+            >
+          </div>
+        </div>
+        <div class="Education">
+          <form action="" href="display_page.html">
+            <h3>Your Education Background</h3>
+            <label for="university"
+              ><h4>University/ tertiary Institution</h4></label
+            >
+            <br />
             <textarea
               name=""
-              id="hobby_description"
+              id="university"
               cols="50"
               rows="5"
               class="css-input"
             >
-Enter hobby description</textarea
+  Enter information about your tertiary institution here</textarea
             >
+            <br />
+            <label for="secondary"><h4>Secondary school</h4></label>
+            <br />
+            <textarea name="" id="secondary" cols="50" rows="5" class="css-input">
+  Enter your secondary school(s) information here</textarea
+            >
+            <br />
+            <label for="primary"><h4>Primary school</h4></label>
+            <br />
+            <textarea name="" id="primary" cols="50" rows="5" class="css-input">
+  Enter your primary school information here</textarea
+            >
+            <br />
+            <div>
+              <h3>Hobbies</h3>
+              <br />
+              <textarea
+                name=""
+                id="hobbi1"
+                cols="50"
+                rows="5"
+                class="css-input"
+              >
+  Enter first hobby name and description here</textarea
+              >
+              <br /><br />
+              <textarea
+                name=""
+                id="hobbi2"
+                cols="50"
+                rows="5"
+                class="css-input"
+              >
+  Enter second hobby name and description here</textarea
+              >
+              <br /><br />
+              <textarea
+                name=""
+                id="hobbi3"
+                cols="50"
+                rows="5"
+                class="css-input"
+              >
+  Enter third hobby name and description here</textarea
+              >
+            </div>
+            <hr />
+          </form>
+        </div>
+        <span class="btn" id="Review">Review</span>
+        <a href="#saved"
+          ><span class="btn" id="Save">Save Changes</span></a
+        >
+        <hr />
+        <br />
+        <!-- </div>
           </div>
-          <hr />
-          <h4>Hobbies List</h4>
-          <div style="width: 50%">
-            <h5>Hobby Name</h5>
-            <p style="text-align: justify">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              distinctio voluptas totam voluptatum cumque perspiciatis odit
-              debitis? Suscipit blanditiis autem consequatur expedita incidunt
-              temporibus laudantium dolorum architecto consequuntur
-              exercitationem commodi aperiam repudiandae non eaque voluptas
-              corrupti mollitia recusandae
+        </div> -->
+      </div>
+      <br />
+      <!-- review page -->
+      <div
+        id="review"
+        style="background-color: rgb(215, 208, 208); border-radius: 10px"
+      >
+      <div class="outer">
+          <h1 style="color: rgb(85, 64, 64); text-align: center">Review</h1>
+          <div id="top" class="css-input">
+            <h1>The social site</h1>
+          </div>
+          <div id="image" class="css-input" alt="profile image"></div>
+          <div class="personal_statement">
+            <div id="personal_data" class="css-input">
+              <h3>Biodata</h3>
+              <p id="personal_data_disp">
+                
+              </p>
+            </div>
+            <div id="education" class="css-input">
+              <h2>Education</h2>
+              <div id="edu_university" class="css-input">
+                <h3>University</h3>
+                <p id="university_disp">
+            
+                </p>
+              </div>
+              <div id="edu_secondary" class="css-input">
+                <h3>Secondary Education</h3>
+                <p id="secondary_disp">
+                 
+                </p>
+              </div>
+              <div id="edu_primary" class="css-input">
+                <h3>Primary Education</h3>
+                <p id="primary_disp">
+                 
+                </p>
+              </div>
+            </div>
+            <div id="biodata" class="css-input">
+              <h2>Personal Statement</h2>
+              <p id="bio_data_disp">
+              
+              </p>
+            </div>
+            <div id="hobbies" class="css-input">
+              <h2>Hobbies</h2>
+              <div id="hobby1">
+                <h3 class="hobby_name_disp">Hobby One</h3>
+                <p class="hobby_description_disp" id="hobb1">
+                  
+                </p>
+              </div>
+              <div id="hobby2">
+                <h3 class="hobby_name_disp">Hobby Two</h3>
+                <p class="hobby_description_disp" id="hobb2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Laboriosam aliquam inventore eum quod odit eos nemo est.
+                  Exercitationem, facere quam!
+                </p>
+              </div>
+              <div id="hobby3">
+                <h3 class="hobby_name_disp">Hobby Three</h3>
+                <p class="hobby_description_disp" id="hobb3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Laboriosam aliquam inventore eum quod odit eos nemo est.
+                  Exercitationem, facere quam!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="display" id="saved">
+      <div class="outer">
+        <div id="top" class="css-input">
+          <img src="images/icons8-menu-48.png" alt="menu icon" id="menu_icon" />
+          <h1>The social site</h1>
+        </div>
+        <div id="Image" class="css-input"></div>
+        <div class="personal_statement">
+          <div id="personal_data" class="css-input">
+            <h3 class="css-input">Personal Statement</h3>
+            <p id="pd_disp">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
           </div>
-        </form>
-      </div>
-      <span class="btn" id="Review">Review</span>
-      <a href="display_page.html"
-        ><span class="btn" onclick="saveChanges()">Save Changes</span></a
-      >
-      <hr />
-      <br />
-      <!-- </div>
+          <div id="education" class="css-input">
+            <h2 class="css-input">Education</h2>
+            <div id="edu_university" class="css-input">
+              <h3 class="css-input">University</h3>
+              <p id="univ_disp">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                ipsa molestiae et aliquid obcaecati nostrum aspernatur illo
+                repudiandae provident dolorem ipsam eum sit earum eius itaque, hic
+              </p>
+            </div>
+            <div id="edu_secondary" class="css-input">
+              <h3 class="css-input">Secondary Education</h3>
+              <p id="sec_disp">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+                similique accusantium reprehenderit dolor repellendus dolorem,
+                ullam reiciendis ipsa nam rerum numquam expedita nemo ex, iure
+                optio quaerat itaque tempora maiores.
+              </p>
+            </div>
+            <div id="edu_primary" class="css-input">
+              <h3 class="css-input">Primary Education</h3>
+              <p id="pri_disp">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+                dolor est impedit minus. Asperiores, culpa! Voluptas placeat
+                necessitatibus sed, saepe at iste architecto quam asperiores quasi
+                iure possimus. Omnis, repellendus.
+              </p>
+            </div>
+          </div>
+          <div id="biodata" class="css-input">
+            <h2 class="css-input">Bio Data</h2>
+            <p id="bd_disp">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+              molestias qui aperiam cupiditate doloribus voluptas voluptatibus
+              consectetur officia, nostrum dicta repellat ut quisquam sunt
+              consequuntur vel incidunt, deleniti dolores? Unde.
+            </p>
+          </div>
+          <div id="hobbies" class="css-input">
+            <h2 class="css-input">Hobbies</h2>
+            <div id="hobby1">
+              <h3 class="hobby_name_disp css-input">Hobby One</h3>
+              <p class="hobby_description_disp" id="hob1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laboriosam aliquam inventore eum quod odit eos nemo est.
+                Exercitationem, facere quam!
+              </p>
+            </div>
+            <div id="hobby2">
+              <h3 class="hobby_name_disp css-input">Hobby Two</h3>
+              <p class="hobby_description_disp" id="hob2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laboriosam aliquam inventore eum quod odit eos nemo est.
+                Exercitationem, facere quam!
+              </p>
+            </div>
+            <div id="hobby3">
+              <h3 class="hobby_name_disp css-input">Hobby Three</h3>
+              <p class="hobby_description_disp" id="hob3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laboriosam aliquam inventore eum quod odit eos nemo est.
+                Exercitationem, facere quam!
+              </p>
+            </div>
+          </div>
         </div>
-      </div> -->
-    </div>
-    <br />
-    <!-- review page -->
-    <div
-      id="review"
-      style="background-color: rgb(215, 208, 208); border-radius: 10px"
-    >
-      
-      
-    </div>
+      </div>
+    </section>
     <script src="main.js"></script>
   </body>
 </html>
