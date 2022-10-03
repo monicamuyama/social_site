@@ -8,7 +8,7 @@ profliePicture.addEventListener("change", function () {
       "#image"
     ).style.backgroundImage = `url(${uploadedImage})`;
     document.querySelector(
-      "#Image"
+      "#PImage"
     ).style.backgroundImage = `url(${uploadedImage})`;
 
   
