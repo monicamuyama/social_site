@@ -33,8 +33,8 @@
 
 #review #image {
   position: absolute;
-  height: 400px;
-  width: 200px;
+  height: 300px;
+  width:300px;
   border-radius: 50%;
   top: 300px;
   margin-left: 25%;
@@ -44,7 +44,7 @@
   width: 35%;
   color: white;
   background-color: rgb(87, 119, 119);
-  height: 600px;
+  height: 550px;
   border-radius: 10%;
   margin-top: 100px;
   margin-left: 15px;
@@ -73,14 +73,12 @@
   background-image: url("images/top.jpg");
   background-repeat: no-repeat;
 }
-#review #edu_university {
-}
 
 #review #biodata {
-  width: 40%;
+  width: 35%;
   color: white;
   background-color: rgb(87, 119, 119);
-  height: 600px;
+  height: 550px;
   float: left;
   border-radius: 10%;
   margin-left: 15px;
@@ -253,11 +251,20 @@ body {
 
 /* display page */
 
-#top {
-  top: 0;
+#edit{
+  float: left;
+}
+
+.display{
+  float: left;
+margin-top: 100px;
+}
+
+.display #top {
+  position: absolute;
   height: 300px;
   background-color: rgb(87, 119, 119);
-  position: relative;
+  width: 100%;
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 5%;
   background-image: url("images/top.jpg");
@@ -280,12 +287,13 @@ body {
   color: white;
 }
 
-#image {
-  position: absolute;
+.display #Image {
+  position: relative;
   height: 400px;
   width: 400px;
   border-radius: 50%;
   top: 100px;
+  margin-left: 38%;
 }
 
 #personal_data {
@@ -320,8 +328,6 @@ body {
   margin-bottom: 30px;
   background-image: url("images/top.jpg");
   background-repeat: no-repeat;
-}
-#edu_university {
 }
 
 #biodata {
@@ -392,4 +398,14 @@ body {
 #hobbies div p {
   text-align: justify;
   padding: 10px 10px;
+}
+
+section .display p{
+    font-size: 2rem;
+    font-display: calc(aliquid);
+
+}
+
+section .display h2,h3{
+  color: rgb(148, 40, 40) !important;
 }
